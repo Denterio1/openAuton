@@ -20,7 +20,6 @@
 
 ### Installation
 
-```bash
 # Clone the repository
 git clone https://github.com/yourusername/openAuton.git
 cd openAuton
@@ -34,9 +33,16 @@ python -m venv .venv
 # On macOS/Linux:
 source .venv/bin/activate
 
-# Install dependencies
-pip install -r requirements.txt
-```
+# Install dependencies and register the global CLI command
+pip install -e .
+
+## 💻 Command Line Interface (CLI)
+
+You can call **openAuton** directly from any terminal window without navigating to the project folder.
+
+**Basic Usage:**
+```bash
+openauton --task "Your instruction here"
 
 ### Running the Agent
 
