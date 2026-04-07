@@ -40,12 +40,11 @@ pip install -r requirements.txt
 
 ### Running the Agent
 
+### 💻 CLI Usage
+Install the agent globally:
 ```bash
-# Start the web server
-python web/app.py
-
-# Server will be available at http://127.0.0.1:8000
-```
+pip install .
+openauton --task "your task here"
 
 ## 🎯 Usage Examples
 
