@@ -313,7 +313,14 @@ HTML_PAGE = """
             <div class="p-4 border-t border-gray-800 text-xs text-gray-500">
                 <div class="flex justify-between items-center">
                     <span class="text-green-400">Online</span>
-                    <button id="refresh-btn" class="hover:text-gray-300">Refresh</button>
+                    <div class="flex items-center gap-2">
+                        <span class="inline-flex gap-1">
+                            <span class="w-1.5 h-1.5 bg-blue-500 rounded-full animate-pulse"></span>
+                            <span class="w-1.5 h-1.5 bg-blue-400 rounded-full animate-pulse" style="animation-delay: 0.2s;"></span>
+                            <span class="w-1.5 h-1.5 bg-gray-600 rounded-full animate-pulse" style="animation-delay: 0.4s;"></span>
+                        </span>
+                        <button id="refresh-btn" class="hover:text-gray-300 ml-2">Refresh</button>
+                    </div>
                 </div>
             </div>
         </div>
