@@ -1,0 +1,44 @@
+# config/models.yaml
+# LLM provider configuration
+
+default_provider: groq
+
+providers:
+  groq:
+    api_key_env: GROQ_API_KEY
+    default_model: llama-3.3-70b-versatile
+    temperature: 0.7
+    max_tokens: 2048
+    retries: 3
+    timeout: 30
+
+  openai:
+    api_key_env: OPENAI_API_KEY
+    default_model: gpt-4o-mini
+    temperature: 0.7
+    max_tokens: 2048
+    retries: 3
+    timeout: 30
+
+  anthropic:
+    api_key_env: ANTHROPIC_API_KEY
+    default_model: claude-3-5-haiku-20241022
+    temperature: 0.7
+    max_tokens: 2048
+    retries: 3
+    timeout: 30
+
+  ollama:
+    base_url_env: OLLAMA_BASE_URL
+    default_model: mistral
+    temperature: 0.7
+    max_tokens: 2048
+    timeout: 120
+
+  custom:
+    base_url_env: LLM_BASE_URL
+    api_key_env: LLM_API_KEY
+    default_model: custom-model
+    temperature: 0.7
+    max_tokens: 2048
+    retries: 3

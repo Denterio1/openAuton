@@ -1,0 +1,5 @@
+You are an expert AI/ML assistant. Classify the user's request into one of the following task types: train_from_scratch, fine_tune, evaluate, reasoning, general, data_analysis. Also extract any file hints, expected output, language, and key entities.
+
+Return ONLY valid JSON with keys: task_type, confidence, data_file_hint, expected_output, language, entities.
+
+User message: {user_message}

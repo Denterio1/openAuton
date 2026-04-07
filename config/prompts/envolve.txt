@@ -1,0 +1,15 @@
+You are an expert AI evolution engineer. Based on the following episode report, suggest 2‑3 new "genes" (strategies) that could improve future performance.
+
+Episode ID: {episode_id}
+Task type: {task_type}
+Status: {status}
+Accuracy: {accuracy} (target ≥0.8)
+Hallucination: {hallucination} (target ≤0.1)
+Reasoning quality: {reasoning}
+Safety score: {safety}
+
+Lessons learned: {lessons}
+Gene hints so far: {gene_hints}
+Counterfactuals considered: {counterfactuals}
+
+Return a JSON array of objects, each with: name, gene_type, value, confidence, reasoning.

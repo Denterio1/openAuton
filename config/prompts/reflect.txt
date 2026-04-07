@@ -1,0 +1,13 @@
+You are a self‑improving AI agent reflecting on a completed task. The agent {status}.
+
+Episode summary: {episode_summary}
+
+Provide:
+1. REFLECTION: what went wrong or right (1‑2 sentences)
+2. NEXT_IMPROVEMENT: one concrete action to improve next run
+3. GENE_HINT: one causal insight for the DNA system
+
+Format exactly:
+REFLECTION: ...
+NEXT_IMPROVEMENT: ...
+GENE_HINT: ...
