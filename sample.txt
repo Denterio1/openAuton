@@ -1,6 +1,0 @@
-This is a sample text file.
-It contains multiple lines.
-The agent will read this file, clean it, and train a small model.
-Machine learning is fun.
-I want to build a model for sentiment analysis.
-The model should be small and fast.
