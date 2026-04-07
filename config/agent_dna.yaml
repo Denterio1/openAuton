@@ -1,64 +1,9 @@
-creation_time: '2026-04-06T23:23:43.957686'
-dna_id: initial_dna
-fitness: 0.0
-generation: 0
-genes:
-- confidence: 1.0
-  dominance: dominant
-  fitness: 0.0
-  gene_id: 1013f6bfef9006f2
-  gene_type: training_schedule
-  metadata: {}
-  name: ultra_low_hallucination
-  source_episodes:
-  - 9d52338d-bbf7-4fbd-85a8-a021f06a576d
-  value:
-    hallucination_budget: 0.0
-- confidence: 0.918613667169178
-  dominance: dominant
-  fitness: 0.0
-  gene_id: 42c70a5b9bacf76a
-  gene_type: meta
-  metadata: {}
-  name: high_accuracy
-  source_episodes:
-  - 9d52338d-bbf7-4fbd-85a8-a021f06a576d
-  value:
-    target_accuracy: 0.918613667169178
-- confidence: 0.9099999999999999
-  dominance: dominant
-  fitness: 0.0
-  gene_id: 22a1704d168b743a
-  gene_type: hyperparameter
-  metadata: {}
-  name: target_accuracy
-  source_episodes:
-  - 9d52338d-bbf7-4fbd-85a8-a021f06a576d
-  value:
-    min_accuracy: 0.91
-- confidence: 0.9
-  dominance: dominant
-  fitness: 0.0
-  gene_id: 9fa3f4d25c8f323c
-  gene_type: objective
-  metadata: {}
-  name: hallucination_penalty
-  source_episodes:
-  - 9d52338d-bbf7-4fbd-85a8-a021f06a576d
-  value:
-    hallucination_weight: 0.3
-- confidence: 0.7999999999999999
-  dominance: dominant
-  fitness: 0.0
-  gene_id: e3c5702515be75c2
-  gene_type: meta
-  metadata: {}
-  name: use_history
-  source_episodes:
-  - 9d52338d-bbf7-4fbd-85a8-a021f06a576d
-  value:
-    history_weight: 0.7
-last_updated: '2026-04-07T17:15:59.456203'
-metadata: {}
-parent_ids: []
-version: '1.1'
+{
+  "dna_id": "initial_dna",
+  "genes": [],
+  "creation_time": "2026-04-07T20:17:00.080226",
+  "fitness": 0.0,
+  "generation": 0,
+  "parent_ids": [],
+  "metadata": {}
+}
